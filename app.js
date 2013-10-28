@@ -24,9 +24,6 @@ app.get('/oauth2callback', function(req, res){
     var code = req.param('code');
 
     request.post('https://accounts.google.com/o/oauth2/token', {form:{"code":code,"client_id":client_id,"client_secret":client_secret,"grant_type":"authorization_code","redirect_uri":redirect_uri}},function (error, response, body){
-        console.log(error);
-        console.log(body);
-        console.log(response);
         res.send(body);
     });
 
