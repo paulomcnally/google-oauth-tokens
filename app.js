@@ -1,3 +1,10 @@
+/*
+ * Documentation: https://developers.google.com/accounts/docs/OAuth2WebServer
+ * Python example: http://gmaps-samples.googlecode.com/svn/trunk/fusiontables/oauth_tokens.py
+ * Create you're client_id, client_secret and redirect_uri here https://code.google.com/apis/console
+ * Example configuration redirect_uri: https://www.dropbox.com/s/4td0b3npmxcao8r/Screenshot%202013-10-28%2017.27.42.png
+ */
+
 var express = require('express');
 var request = require('request');
 var app = express();
