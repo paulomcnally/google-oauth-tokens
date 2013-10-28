@@ -9,9 +9,9 @@ var express = require('express');
 var request = require('request');
 var app = express();
 
-var client_id = '1056343679866-d3om13ea9ts3hboquqssjqq82uj56q7n.apps.googleusercontent.com';
-var client_secret = 'Gsy9mP-tSZuC32gRuBIiaKt6';
-var redirect_uri = 'http://127.0.0.1:8081/oauth2callback';
+var client_id = ''; // https://code.google.com/apis/console
+var client_secret = ''; // https://code.google.com/apis/console
+var redirect_uri = ''; // https://code.google.com/apis/console
 
 app.use(express.bodyParser());
 
